@@ -45,7 +45,7 @@ This will involve a machine learning model for effective responses which will in
 
 ### The architecture: 
 
-![Architecture](https://covid-19-imageforafriend.s3.jp-tok.cloud-object-storage.appdomain.cloud/architecture.png)
+[Architecture](https://covid-19-imageforafriend.s3.jp-tok.cloud-object-storage.appdomain.cloud/architecture.png)
 
 1. The user saves the WhatsApp number. 
 
@@ -73,7 +73,7 @@ This will involve a machine learning model for effective responses which will in
 
 ### Solution roadmap: 
 
-![Roadmap](https://covid-19-imageforafriend.s3.jp-tok.cloud-object-storage.appdomain.cloud/long_road_map.png)
+[Roadmap](https://covid-19-imageforafriend.s3.jp-tok.cloud-object-storage.appdomain.cloud/long_road_map.png)
 
 ### IBM Cloud Services or IBM Systems Used: 
 Cloud Foundry Apps, Watson Assistant, DB2, Cloud Object Storage 
@@ -121,7 +121,7 @@ These instructions will get you a copy of the project up and running on your loc
 2. Java8
 
 ### Make IBM Account
-[IBM Cloud account](https://console.ng.bluemix.net/registration/)
+[IBM CLOUD ACCOUNT](https://console.ng.bluemix.net/registration/)
 
 ### Make a bot on IBM Watson Assitant
 [IBM WATSON ASSISTANT](https://www.ibm.com/watson/how-to-build-a-chatbot)
