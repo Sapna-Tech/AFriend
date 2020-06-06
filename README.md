@@ -1,29 +1,29 @@
-###### A Friend
+# A Friend
 
-## SUMBISSION NAME  
+# SUMBISSION NAME  
 
 A Friend: A WhatsApp chatbot with our inbuild corona tracker application
 
-# Short description:
+### Short description:
 We have developed a Whatsapp Watson Assistant bot for covid-19 and a inbuilt corona tracker.
 
-# Long description: 
+#### Long description: 
 
-# What is the problem? 
+### What is the problem? 
 
 Currently lot of people in this lockdown period are unaware of correct information. People do not have access to essential services, some are losing jobs and feeling demotivated. This product is a proper destination for all such users, where all information can be accessed. 
 
-# How can technology help? 
+### How can technology help? 
 
 Today technology is in the hands of massive amount of people in the form of mobiles. WhatsApp being a very powerful platform can be leveraged in providing assistance to people in need. 
 
-# The idea: 
+### The idea: 
 
 We ideate to integrate our chat assistance with WhatsApp which can provide all sorts of information to users. Just saving a WhatsApp number in the mobile can provide all sorts of information related to coronavirus and help to develop social wellbeing of the users. 
 
 Developing our inbuild tracker to keep track of cases and statistics in understandable format. Backed by Cloud Foundry Apps, Watson Assistant, DB2, Cloud Object Storage we aspire to build a scalable product. 
 
-# What have we developed?  
+### What have we developed?  
 
 A chat assistant integrated with WhatsApp along with covid_19 tracker that will keep human emotional well-being and assist in providing suitable information 
 
@@ -43,7 +43,7 @@ A chat assistant integrated with WhatsApp along with covid_19 tracker that will 
 
 This will involve a machine learning model for effective responses which will indeed drive the conversation. 
 
-# The architecture: 
+### The architecture: 
 
 ![Architecture](https://covid-19-imageforafriend.s3.jp-tok.cloud-object-storage.appdomain.cloud/architecture.png)
 
@@ -71,14 +71,14 @@ This will involve a machine learning model for effective responses which will in
 
 10. The chat assistant is integrated in web application as well. 
 
-# Solution roadmap: 
+### Solution roadmap: 
 
 ![Roadmap](https://covid-19-imageforafriend.s3.jp-tok.cloud-object-storage.appdomain.cloud/long_road_map.png)
 
-# IBM Cloud Services or IBM Systems Used: 
+### IBM Cloud Services or IBM Systems Used: 
 Cloud Foundry Apps, Watson Assistant, DB2, Cloud Object Storage 
 
-# A Friend Bot: 
+### A Friend Bot: 
 
 1. Bot created at Watson Assistant: Intent, Entities and Dialogue flow 
 2. Cloud Object Storage: Storages all data related to Responses which includes images and videos. 
@@ -89,12 +89,12 @@ Application is made where Watson Assistant APIs were integrated (session and Mes
 Session IDs were linked to Mobile number and the data on runtime gets stored in DB2 database.
 This API is linked with WhatsApp (Twilio Interface). 
 
-# Twilio Interface: 
+### Twilio Interface: 
 
 Twilio is a cloud communications platform to perform communication functions and have used it to call WhatsApp web service APIs. 
 Node.js program to connect with Python service and WhatsApp.  
 
-# Corona Tracker Application: 
+### Corona Tracker Application: 
 
 1. Java Spring Boot Application   
 2. John Hopkins data set and other open source APIs used to fetch real time data 
@@ -103,7 +103,7 @@ Node.js program to connect with Python service and WhatsApp.
 
 Watson chat assistant integrated on the Home page 
 
-# Future Plans: 
+### Future Plans: 
 
 1. Improve bot on IBM Assistant by improving and augmenting the dataset
 2. Connect with various NGOs, Social Reformers and other services to be a part of our chatbot which will make our chatbot a central platform
@@ -112,25 +112,25 @@ Watson chat assistant integrated on the Home page
 5. Expand to more calamities in order to make it scalable
 6. Make a platform where information on any calamities and help at any time can be provided
 
-## Getting Started
+# Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-# Prerequisites
+### Prerequisites
 
 1. Python
 2. Java8
 
-# Make IBM Account
+### Make IBM Account
 [IBM Cloud account](https://console.ng.bluemix.net/registration/)
 
-# Make a bot on IBM Watson Assitant
+### Make a bot on IBM Watson Assitant
 [IBM WATSON ASSISTANT](https://www.ibm.com/watson/how-to-build-a-chatbot)
 
-# Create DB2
+### Create DB2
 [DB2 DATABASE](https://cloud.ibm.com/docs/Db2onCloud?topic=Db2onCloud-getting-started)
 
-# Make Twilio Account
-
+### Make Twilio Account
+[TWILIO ACCOUNT](https://www.twilio.com/blog/what-does-twilio-do)
 
 # Add to config
 1. coronavirus-bot
@@ -144,7 +144,7 @@ These instructions will get you a copy of the project up and running on your loc
 2. Twilio
   
     a. All details regarding coronavirus(predict API) in whatsapp.js
-    b. Copy this code to your twilio Account
+    b. Copy this code to your twilio Account (Function--->Make API--->Copy the code)
 
 ### Set up python environment - coronavirus-bot:
 Go to the folder, (pyCharm)
