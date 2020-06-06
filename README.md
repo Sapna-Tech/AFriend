@@ -45,7 +45,7 @@ This will involve a machine learning model for effective responses which will in
 
 ### The architecture: 
 
-[Architecture](https://covid-19-imageforafriend.s3.jp-tok.cloud-object-storage.appdomain.cloud/architecture.png)
+![Architecture](https://github.com/Sapna-Tech/AFriend/blob/master/architecture.png)
 
 1. The user saves the WhatsApp number. 
 
@@ -73,7 +73,7 @@ This will involve a machine learning model for effective responses which will in
 
 ### Solution roadmap: 
 
-[Roadmap](https://covid-19-imageforafriend.s3.jp-tok.cloud-object-storage.appdomain.cloud/long_road_map.png)
+[Roadmap](https://github.com/Sapna-Tech/AFriend/blob/master/long_road_map.png)
 
 ### IBM Cloud Services or IBM Systems Used: 
 Cloud Foundry Apps, Watson Assistant, DB2, Cloud Object Storage 
