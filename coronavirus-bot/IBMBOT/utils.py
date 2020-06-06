@@ -1,0 +1,15 @@
+class ConfigLoading:
+    def __init__(self, config):
+        self.db_link = config['db_link']
+        self.db_username = config['db_username']
+        self.db_password = config['db_password']
+        self.session_url = config['session_url']
+        self.session_url_method_type = config['session_url_method_type']
+        self.session_url_params = config['session_url_params']
+        self.session_headers = config['session_headers']
+        self.predict_url = config['predict_url']
+        self.predict_url_method_type = config['predict_url_method_type']
+        self.predict_url_params = config['predict_url_params']
+        self.predict_url_raw_params = config['predict_url_raw_params']
+        self.predict_headers = config['predict_headers']
+        self.default_response = config['default_response']

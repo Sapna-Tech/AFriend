@@ -1,0 +1,6 @@
+Flask>=1.0.0
+Flask-API==2.0
+ibm_db
+tornado==6.0.4
+flask-basicauth==0.2.0
+requests

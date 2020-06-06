@@ -1,0 +1,56 @@
+{
+  "BASIC_AUTH_USERNAME": "####USERNAME####",
+  "BASIC_AUTH_PASSWORD": "####PASSWORD####",
+  "model": [
+    {
+      "db_link": "####DBlink####",
+      "db_username": "####DBUSERNAME####",
+      "db_password": "####DBPASSWORD####",
+      "session_url": "#####SESSIONURL####",
+      "session_url_method_type": "POST",
+      "session_url_params": [
+        {
+          "param_name": "version",
+          "param_value": "####SESSIONVERSION####",
+          "param_type": "simple"
+        }
+      ],
+      "session_headers": [
+        {
+          "header_name": "Authorization",
+          "header_value": "#####SESSIONAUTH####",
+          "header_type": "simple"
+        }
+      ],
+      "predict_url": "####PREDICTURL####",
+      "predict_url_method_type": "POST",
+      "predict_url_params": [
+        {
+          "param_name": "version",
+          "param_value": "####PREDICTVERSION####",
+          "param_type": "simple"
+        }
+      ],
+      "predict_url_raw_params": [
+        {
+          "param_name": "input",
+          "param_value": "%text%",
+          "param_type": "evaluate"
+        }
+      ],
+      "predict_headers": [
+        {
+          "header_name": "Content-Type",
+          "header_value": "application/json",
+          "header_type": "simple"
+        },
+        {
+          "header_name": "Authorization",
+          "header_value": "####PREDICTAUTH####",
+          "header_type": "simple"
+        }
+      ],
+      "default_response": ["Please repharse your query.", "I am unable to understand."]
+    }
+  ]
+}
