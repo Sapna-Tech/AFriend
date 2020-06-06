@@ -73,7 +73,7 @@ This will involve a machine learning model for effective responses which will in
 
 ### Solution roadmap: 
 
-[Roadmap](https://github.com/Sapna-Tech/AFriend/blob/master/long_road_map.png)
+![Roadmap](https://github.com/Sapna-Tech/AFriend/blob/master/long_road_map.png)
 
 ### IBM Cloud Services or IBM Systems Used: 
 Cloud Foundry Apps, Watson Assistant, DB2, Cloud Object Storage 
