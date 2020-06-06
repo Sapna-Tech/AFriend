@@ -59,7 +59,7 @@ This will involve a machine learning model for effective responses which will in
 
      B) Old session: The session id is fetched of the user. 
 
-5 .The Python service calls Watson assistant which processes and provides the proper response. 
+5. The Python service calls Watson assistant which processes and provides the proper response. 
 
 6. The Watson assistant is trained on our self-made dataset and have provided support of text and images. 
 
