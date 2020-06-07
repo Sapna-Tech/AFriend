@@ -45,7 +45,7 @@ This will involve a machine learning model for effective responses which will in
 
 ### The architecture: 
 
-![Architecture](https://github.com/Sapna-Tech/AFriend/blob/master/architecture.png)
+![Architecture](https://github.com/Sapna-Tech/AFriend/blob/master/images/architecture.png)
 
 1. The user saves the WhatsApp number. 
 
@@ -73,7 +73,7 @@ This will involve a machine learning model for effective responses which will in
 
 ### Solution roadmap: 
 
-![Roadmap](https://github.com/Sapna-Tech/AFriend/blob/master/long_road_map.png)
+![Roadmap](https://github.com/Sapna-Tech/AFriend/blob/master/images/long_road_map.png)
 
 ### IBM Cloud Services or IBM Systems Used: 
 Cloud Foundry Apps, Watson Assistant, DB2, Cloud Object Storage 
@@ -165,7 +165,10 @@ Go to the folder
 
 2. coronavirus-investigator
   a. cd /coronavirus-investigator/target &
-  b. nohup java jar coronavirus-investigator-0.0.6-SNAPSHOT.jar & 
+  b. nohup java jar coronavirus-investigator-0.0.6-SNAPSHOT.jar &
+  
+## Demo Link for corona tracker with Integrated Chat Assistant
+[CORONA TRACKER](http://www.aneyeoncovid19.live/)
   
 ## Demo Video
-[![Watch the video](https://github.com/Sapna-Tech/AFriend/blob/master/Afriend-tracker.png)](https://youtu.be/U1IWPp7mDzg)
+[![Watch the video](https://github.com/Sapna-Tech/AFriend/blob/master/images/Afriend-tracker.png)](https://youtu.be/U1IWPp7mDzg)
