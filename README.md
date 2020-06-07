@@ -168,4 +168,4 @@ Go to the folder
   b. nohup java jar coronavirus-investigator-0.0.6-SNAPSHOT.jar & 
   
 ## Demo Video
-[![A Friend](https://youtu.be/U1IWPp7mDzg)
+[![Watch the video](https://github.com/Sapna-Tech/AFriend/blob/master/Afriend-tracker.png)](https://youtu.be/U1IWPp7mDzg)
